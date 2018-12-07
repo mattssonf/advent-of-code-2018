@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DayOne {
+public class DayOne1 {
     public static void main(String args[]) throws Exception{
         File frequencies = new File("frequencies.txt");
         BufferedReader br = new BufferedReader(new FileReader(frequencies));

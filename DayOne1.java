@@ -6,7 +6,6 @@ public class DayOne1 {
         BufferedReader br = new BufferedReader(new FileReader(frequencies));
 
         String line;
-        int i = 0;
         int sum = 0;
         String number;
         while((line = br.readLine()) != null){
@@ -18,7 +17,6 @@ public class DayOne1 {
                 number = line.substring(1);
                 sum = sum + Integer.parseInt(number);
             }
-            i++;
         }
         System.out.println("The sum of the frequencies is: " + sum);
     }
